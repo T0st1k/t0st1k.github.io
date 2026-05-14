@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет без угроз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a class="logo" href="#!">Интернет без угроз</a>
+                <div class="nav-links">
+                    <a href="#dangers">Основные угрозы</a>
+                    <a href="#secure">Как защититься</a>
+                    <a href="#test">Тест</a>
+                    <a href="#conclusion">Вывод</a>
+                </div>
+                <button class="nav btn" href="#test">Пройти тест</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <h1 class="welcome__title title">Интернет без угроз</h1>
+                <div class="welcome__wrap">
+                    <p class="welcome__desc desc">Интернет стал неотъемлемой частью нашей жизни, но вместе с удобством
+                        появляются и угрозы - вирусы, мошенники, утечки данных и опасное поведение в сети.<br>
+                        Узнайте о основных угрозах в интернете и методах защиты от них.</p>
+                    <div class="welcome__spans">
+                        <span><img src="img/Microbe.svg" draggable="false"> Вирусы</span>
+                        <span><img src="img/Fishing Pole.svg" draggable="false"> Фишинг</span>
+                        <span><img src="img/Locked.svg" draggable="false"> Данные</span>
+                    </div>
+                </div>
+                <div class="welcome__btns">
+                    <a class="btn2" href="#dangers">Изучить угрозы</a>
+                    <a class="btn3" href="#test">Пройти тест</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="dangers" id="dangers">
+            <div class="container">
+                <h2 class="dangers__title title">С какими угрозами можно столкнуться?</h2>
+                <p class="dangers__desc desc">Кратко разбираем самые распространённые опасности в интернете и как они
+                    работают.
+                </p>
+                <div class="cards_wrapper">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/virus.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Вредоносные программы</h3>
+                                        <p class="card__desc desc">Программы, которые попадают на устройство и могут
+                                            украсть данные или повредить систему.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Вирусы и трояны могут незаметно устанавливаться через
+                                        файлы или сомнительные сайты. Они способны воровать пароли, замедлять работу
+                                        устройства и давать злоумышленникам полный доступ к вашим личным данным.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/fishing.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Фишинг</h3>
+                                        <p class="card__desc desc">Мошеннические сайты и сообщения, пытающиеся
+                                            обманом получить личные данные пользователя.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Фишинг - создание поддельных сайтов, имитирующих
+                                        банки или соцсети, для кражи ваших логинов и паролей. Обычно такие ссылки
+                                        приходят в письмах или сообщениях с пугающими заголовками о блокировке счета и
+                                        т.п.
+                                    </p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/stealing.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Кража личных данных</h3>
+                                        <p class="card__desc desc">Незаконный доступ к личной информации пользователя,
+                                            включая пароли и банковские данные.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Злоумышленники собирают ваши ФИО, номера телефонов и
+                                        паспортные данные для оформления кредитов или взлома аккаунтов. Часто это
+                                        происходит из-за утечек в плохо защищенных сервисах или открытого доступа к
+                                        профилям.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/cyberbullying.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Кибербуллинг</h3>
+                                        <p class="card__desc desc">Оскорбления и угрозы в интернете, которые
+                                            могут происходить в социальных сетях и чатах.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Кибербуллинг - травля и агрессия в интернете,
+                                        направленная на подрыв
+                                        вашей репутации или психического состояния. Включает в себя угрозы,
+                                        оскорбления в соц. сетях и распространение ложной информации о человеке.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/danger.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Опасности социальных сетей</h3>
+                                        <p class="card__desc desc">Риски при использовании соцсетей, включая мошенников,
+                                            фейковые аккаунты и утечку личных данных.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Избыточная открытость профиля позволяет мошенникам узнать
+                                        ваш адрес, распорядок дня и круг общения. Через личные сообщения часто
+                                        распространяются вирусы, спам и просьбы о «помощи» от взломанных друзей.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secure" id="secure">
+            <div class="container">
+                <h2 class="secure__title title">Как защитить себя в интернете</h2>
+                <p class="secure__desc desc">Простые правила, которые реально помогают сохранить данные и безопасность.
+                </p>
+                <div class="cards_wrapper">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/antivirus.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Антивирус</h3>
+                                        <p class="card__desc desc">Программы, которые защищают устройство от вирусов и
+                                            вредоносных файлов.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Специальное ПО, которое в реальном времени проверяет
+                                        скачиваемые файлы и посещаемые сайты. Оно блокирует запуск опасных программ и
+                                        вовремя оповещает пользователя о попытке взлома или заражения системы.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/key.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Надёжные пароли</h3>
+                                        <p class="card__desc desc">Сложные пароли, которые защищают аккаунты от взлома и
+                                            несанкционированного доступа.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Используйте разные пароли для каждого сайта, состоящие из
+                                        букв разного регистра, цифр и символов. Это гарантирует, что при взломе одного
+                                        сервиса другие ваши аккаунты останутся в полной безопасности.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/code.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Двухфакторная защита</h3>
+                                        <p class="card__desc desc">Дополнительная защита аккаунта, требующая
+                                            подтверждения входа через код или приложение.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Это второй уровень защиты, требующий подтверждения входа
+                                        через SMS или приложение на телефоне. Даже если мошенник узнает ваш пароль, он
+                                        не сможет войти в аккаунт без доступа к вашему устройству.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/cyberbullying.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">При кибербуллинге</h3>
+                                        <p class="card__desc desc">Правила поведения при оскорблениях, угрозах и травле
+                                            в интернете.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Никогда не вступайте в спор с агрессором и не
+                                        оправдывайтесь. Самый эффективный метод - сразу заблокировать обидчика и
+                                        отправить жалобу модераторам соцсети для удаления вредоносного контента.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__front">
+                                <div class="card__content">
+                                    <img src="img/danger.svg" class="card__img">
+                                    <div class="card__text">
+                                        <h3 class="card__title">Настройки приватности</h3>
+                                        <p class="card__desc desc">Контроль доступа к личной информации в социальных
+                                            сетях и онлайн-сервисах.</p>
+                                    </div>
+                                </div>
+                                <button class="card__btn">Узнать больше...</button>
+                            </div>
+                            <div class="card__back">
+                                <div class="card__back-content">
+                                    <p class="card__info desc">Ограничьте доступ к своей странице, сделав её видимой
+                                        только для друзей. Скройте номер телефона, дату рождения и список родственников
+                                        - это лишит мошенников инструментов для социальной инженерии.</p>
+                                </div>
+                                <button class="card__btn">Назад</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="test" id="test">
+            <div class="container">
+                <h2 class="test__title title">Тест на знание УГРОЗ</h2>
+                <p class="test__desc desc">Пройдите тест и узнайте, насколько вы защищены от опасностей в интернете.
+                </p>
+                <div class="test__wrapper">
+                    <button type="button" class="test__btn btn3" id="startBtn" onclick="showTest()">Пройти тест</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="booklet" id="booklet">
+            <div class="container">
+                <h2 class="booklet__title title">Буклет с рекомендациями</h2>
+                <p class="booklet__desc desc">Информация о компьютерных и мобильных вирусах, а также о том, как от них
+                    защититься.
+                </p>
+                <div class="booklet__img-wrapper">
+                    <div class="img img--left active">
+                        <img src="img/page1.png" class="booklet__page1">
+                    </div>
+                    <div class="img img--right">
+                        <img src="img/page2.png" class="booklet__page2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="conclusion" id="conclusion">
+            <div class="container">
+                <h2 class="conclusion__title title">Вывод о угрозах в интернете</h2>
+                <p class="conclusion__desc desc">Заключение о правилах безопасности в интернете и важности защиты личных
+                    данных.
+                </p>
+                <p class="conclusion__text">В процессе создания проекта были выявлены механизмы работы вредоносного ПО,
+                    методы сетевого мошенничества и психологические приемы кибербуллинга.
+                    На основе полученных данных разработан этот сайт, объединяющий теоретические исследования и
+                    конкретные
+                    инструменты защиты.
+                    <br><br>
+                    Представленные методы обеспечения безопасности и интерактивные элементы призваны помочь
+                    пользователям не только узнать о рисках, но и сформировать устойчивые навыки безопасного поведения в
+                    сети. Помните, что ваша цифровая грамотность - это самый надежный барьер на пути злоумышленников.
+                    Будьте
+                    внимательны, используйте проверенные способы защиты и оставайтесь в безопасности.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="nav">
+                <a class="logo" href="#!">Интернет без угроз</a>
+                <div class="nav-links">
+                    <a href="#dangers">Основные угрозы</a>
+                    <a href="#secure">Как защититься</a>
+                    <a href="#test">Тест</a>
+                    <a href="#conclusion">Вывод</a>
+                </div>
+                <button class="nav btn" href="#test">Пройти тест</button>
+            </nav>
+            <div class="authors">
+                <span>Created by @T0st1k</span>
+                <span>Special thanks to: @WenceNK, @xqu1et</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
